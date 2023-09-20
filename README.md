@@ -45,4 +45,3 @@ JavaScript Object Notationの略、データ交換のために設計された軽
 クライアントが行いたい処理をサーバー側に伝えるもの  
 <img width="500" alt="image" src="https://github.com/Satoru-Oki/5th-special-task/assets/143796169/d87c1613-6505-4816-bd70-8b4a1c321451">  
 以上、９つのメソッドがある
-
