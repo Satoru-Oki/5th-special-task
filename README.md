@@ -45,3 +45,30 @@ JavaScript Object Notationの略、データ交換のために設計された軽
 クライアントが行いたい処理をサーバー側に伝えるもの  
 <img width="500" alt="image" src="https://github.com/Satoru-Oki/5th-special-task/assets/143796169/d87c1613-6505-4816-bd70-8b4a1c321451">  
 以上、９つのメソッドがある
+### http/httpsの違い
+Httpは通信が暗号化されていないので機微情報を送信するのにセキュリティに問題がある。この課題をクリアするためHttpに共通鍵暗号方式と公開鍵暗号通信を組み合わせたSSL通信を実装したプロトコルがHttpsである。
+#### JSONコードサンプル
+```diff json
+{
+"RugbyPlayer": [
+    {
+    "team": 1,
+    "name": "Oki",
+-   "speed": "middle",
++   "starter": true
+    },
+    {
+    "team": 2,
+    "name": "Sakai",
+-   "speed": "middle",
++   "starter": true
+    },
+    {
+    "team": 3,
+    "name": "Suzuki",
+    "speed": "high",
++   "starter": true
+    }
+  ]
+}
+```
