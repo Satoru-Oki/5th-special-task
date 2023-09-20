@@ -12,12 +12,11 @@ ex)①https:// ②qiita.com/ ③Ohtak/items/ ④ookami.html
   ①から②までの部分がパスパラメータであり、②の部分がクエリパラメータとなる  
 クエリパラメータは"？"以降を指し、名前＝値の形式で内容を記述する  
 パッシブパラメータとアクティブパラメータの2種類がある
-## HTTPメソッドとは
 ### クライアントサーバーシステムの概要
 <img width="227" alt="image" src="https://github.com/Satoru-Oki/5th-special-task/assets/143796169/528e0de4-7588-4f95-bc67-f4356eeff001">    
 <img width="214" alt="image" src="https://github.com/Satoru-Oki/5th-special-task/assets/143796169/ee97c69b-ed79-48ee-bb79-eb2a6efab950">  
 
-図のようなやりとりをおこなうにあたってのWeb上の決め事（プロトコル）をHTTPプロトコルという
+図のようなやりとりをおこなうにあたってWeb上の決め事（プロトコル）をHTTPプロトコルという
 ## HTTPメッセージとは
 クライアントとサーバーがデータを交換する手段でクライアントが送信するものがリクエスト、サーバーが回答するレスポンスの２種類がある  
 
@@ -34,3 +33,16 @@ ex)①https:// ②qiita.com/ ③Ohtak/items/ ④ookami.html
 HTMLの内容など本文が記載されている。
 #### JSONとは
 JavaScript Object Notationの略、データ交換のために設計された軽量なテキスト形式のデータの表現。主にWebアプリケーションなどでクライアントとサーバー間でデータをやり取りする際に使用される
+#### HTTPステータスコード
+レスポンスメッセージの中で現在の通信の状態を伝達するもの  
+３桁の数字で表され先頭の数字で意味が分類されている  
+<img width="500" alt="image" src="https://github.com/Satoru-Oki/5th-special-task/assets/143796169/958a3249-eb30-42db-82a4-39177d1a194a">  
+その他  
+201：リクエストが成功し、その結果新たなリソースが作成されたことを表す  
+404：サーバーがリクエストされたリソースを発見できないことを表す  
+
+## HTTPメソッドとは
+クライアントが行いたい処理をサーバー側に伝えるもの  
+<img width="500" alt="image" src="https://github.com/Satoru-Oki/5th-special-task/assets/143796169/d87c1613-6505-4816-bd70-8b4a1c321451">  
+以上、９つのメソッドがある
+
